@@ -1,0 +1,4 @@
+mnist/
+models/
+.idea/
+.pyc
