@@ -32,7 +32,7 @@ print(net)
 plt.ion()
 plt.show()
 
-optimizer = torch.optim.SGD(net.parameters(), lr = 0.5)
+optimizer = torch.optim.SGD(net.parameters(), lr = 0.1)
 loss_function = torch.nn.MSELoss()
 for t in range(100):
     prediction = net(x)
